@@ -24,6 +24,6 @@ func (s *KubedogTestSuite) TestKubeInit() {
 
 //nolint:paralleltest // cannot parallel because of setenv
 func TestKubedogTestSuite(t *testing.T) {
-	// t.Parallel()
+	//  t.Parallel()
 	suite.Run(t, new(KubedogTestSuite))
 }
